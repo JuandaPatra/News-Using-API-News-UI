@@ -1,0 +1,306 @@
+.home{
+    // background-color: wheat;
+    .headline{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        flex-grow: 1;
+
+        .headline1{
+            margin-right: 20px;
+
+            .headline1-content{
+                width: 18rem;
+                height: 500px;
+            }
+        }
+        .headline1:hover{
+            cursor: pointer;
+        }
+        .headline2{
+            display: flex;
+            flex-direction: column;
+            // margin-bottom: 10px;
+
+            .headline2-top{
+                width: 18rem;
+                margin-bottom: 10px;
+                height: 39vh;
+
+                .gambar1{
+                    width: 100%;
+                    height: 22vh;
+                }
+            }
+
+            .headline2-bottom{
+                width: 18rem;
+                height: 39vh;
+
+                .gambar2{
+                    width: 100%;
+                    height: 20vh;
+                }
+            }
+
+        }
+        .headline2:hover{
+            cursor: pointer;
+        }
+        .headline3{
+            width: 18rem;
+
+            .headline3-content{
+                width: 18rem;
+                height: 500px;
+            }
+        }
+        .headline3:hover{
+            cursor: pointer;
+        }
+    }
+
+    .cardNews{
+        // background-color: cornflowerblue;
+
+        .card{
+            border: none;
+            margin: 3%;
+            .news-news{
+                .gambarNews{
+                    width: 95%;
+                    height: 30%;
+                }
+            }
+        }
+    }
+
+    .footer{
+        background-color: cornflowerblue;
+        color: wheat;
+        height: 30vh;
+
+        .about{
+            margin: 2%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .socmed{
+            display: flex;
+            flex-direction: row;
+            // justify-content: space-evenly;
+            color: black;
+            justify-content: center;
+            // margin-left: 1%;
+            // height: 50px;
+            // margin: 15%;
+            .fb{
+                margin-right: 5%;
+            }
+            .ig{
+                margin-right: 5%;
+            }
+            .line{
+                margin-right: 5%;
+            }
+            
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .home{
+        .headline{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1%;
+            margin-top: 1%;
+            margin-bottom: 5vh;
+            flex-grow: 30%;
+    
+            .headline1{
+                margin-right: 2%;
+    
+                .headline1-content{
+                    width: 15rem;
+                    height: 95%;
+                }
+            }
+            .headline2{
+                display: flex;
+                flex-direction: column;
+                // margin-bottom: 10px;
+    
+                .headline2-top{
+                    width: 15rem;
+                    margin-bottom: 10px;
+                    height: 39vh;
+    
+                    .gambar1{
+                        width: 100%;
+                        height: 22vh;
+                    }
+                }
+    
+                .headline2-bottom{
+                    width: 15rem;
+                    height: 39vh;
+    
+                    .gambar2{
+                        width:  100%;
+                        height: 20vh;
+                    }
+                }
+    
+            }
+            .headline3{
+                width: 18rem;
+                margin-left: 2%;
+    
+                .headline3-content{
+                    width: 15rem;
+                    height: 95%;
+                }
+            }
+        }
+
+        .cardNews{
+            // background-color: cornflowerblue;
+    
+            .card{
+                
+                margin: 3%;
+                .news-news{
+                    .gambarNews{
+                        width: 20%;
+                        height: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .home{
+        .headline{
+            display: flex;
+            margin-left: 13%;
+            margin-top: 1%;
+            margin-bottom: 5vh;
+            flex-grow: 30%;
+    
+            .headline1{
+                margin-right: 2%;
+    
+                .headline1-content{
+                    width: 18rem;
+                    height: 99%;
+                }
+            }
+            .headline2{
+                display: flex;
+                flex-direction: column;
+                // margin-bottom: 10px;
+    
+                .headline2-top{
+                    width: 20rem;
+                    margin-bottom: 5px;
+                    height: 39vh;
+    
+                    .gambar1{
+                        width: 100%;
+                        height: 22vh;
+                    }
+                }
+    
+                .headline2-bottom{
+                    width: 20rem;
+                    height: 39vh;
+    
+                    .gambar2{
+                        width:  100%;
+                        height: 20vh;
+                    }
+                }
+    
+            }
+            .headline3{
+                width: 18rem;
+                margin-left: 2%;
+    
+                .headline3-content{
+                    width: 18rem;
+                    height: 99%;
+                }
+            }
+        }
+
+        .cardNews{
+            // background-color: cornflowerblue;
+    
+            .card{
+                
+                margin: 3%;
+                .news-news{
+                    .gambarNews{
+                        width: 5%;
+                        height: 5%;
+                    }
+                }
+            }
+        }
+        .footer{
+            background-color: cornflowerblue;
+            color: wheat;
+            height: 30vh;
+    
+            .about{
+                margin: 2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+    
+            .socmed{
+                display: flex;
+                flex-direction: row;
+                // justify-content: space-evenly;
+                color: black;
+                justify-content: center;
+                // margin-left: 1%;
+                // height: 50px;
+                // margin: 15%;
+                .fb{
+                    margin-right: 5%;
+                }
+                .ig{
+                    margin-right: 5%;
+                }
+                .line{
+                    margin-right: 5%;
+                }
+                
+            }
+        }
+    }
+
+}
+
+// @media only screen and (min-width: 992px) {
+//     .home{
+//         background-color: darksalmon;
+
+//         .card{
+//             width: 30vw;
+//         }
+//         .gambarNews{
+//             width: 20vw;
+//             margin: 30p;
+//         }
+//     }
+// }
